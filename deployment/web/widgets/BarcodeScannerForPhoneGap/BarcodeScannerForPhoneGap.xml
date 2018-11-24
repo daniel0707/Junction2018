@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BarcodeScannerForPhoneGap.widget.BarcodeScannerForPhoneGap" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Barcode scanner</name>
+    <description>Creates a button to use the barcodescanner functionality</description>
+    <icon>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAElBMVEUAAABXV1dVVVVJsPhIsPdVVVWcEer3AAAABHRSTlMASeP9eof+WwAAAHJJREFUeAHtlzEKxTAMQ239r/tfuaHtFEpxIkog6C1e7AchixQXJsET5OQ2eIMo8LDNOQE7wegTOkEMspsAJGKE/iaBjDrlG7OAf6M89xdYYIEFBb4XtPF7n/sL1v2CWYoespSY56ysFw698uilS6995gADwwwpR7MpFwAAAABJRU5ErkJggg==
+    </icon>
+    <phonegap enabled="true"/>
+    <properties>
+        <property key="attributeName" type="attribute">
+            <caption>Attribute</caption>
+            <category>Data source</category>
+            <description>The attribute where the string is saved to</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+        <property key="buttonLabel" type="string" required="true">
+            <caption>Caption</caption>
+            <category>Button</category>
+            <description/>
+        </property>
+        <property key="buttonClass" type="string" required="false">
+            <caption>Class</caption>
+            <category>Button</category>
+            <description/>
+        </property>
+        <property key="onchangemf" type="microflow" required="false">
+            <caption>On change microflow</caption>
+            <category>Events</category>
+            <description/>
+            <returnType type="Void"/>
+        </property>
+        <property key="onChangeNanoflow" type="nanoflow" required="false">
+            <caption>On change nanoflow</caption>
+            <category>Events</category>
+            <description/>
+            <returnType type="Void"/>
+        </property>
+    </properties>
+</widget>

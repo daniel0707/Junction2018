@@ -1,0 +1,9 @@
+﻿Buildfile: D:\OneDrivePersonal\OneDrive\Documents\Mendix\MobilePayTabs-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 45 files to D:\OneDrivePersonal\OneDrive\Documents\Mendix\MobilePayTabs-main\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
